@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #131313;
+  --color-surface-bright: #393939;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1b1b1b;
+  --color-surface-container: #1f1f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353535;
+  
+  --color-on-surface: #e2e2e2;
+  --color-on-surface-variant: #c2c6d7;
+  
+  --color-primary: #b1c5ff;
+  --color-on-primary: #002c72;
+  --color-primary-container: #5a8cff;
+  --color-on-primary-container: #002664;
+  
+  --color-outline: #8c90a1;
+  --color-outline-variant: #424655;
+
+  --font-headline: var(--font-headline), sans-serif;
+  --font-body: var(--font-body), sans-serif;
+}
+
+@layer utilities {
+  .editorial-text-overlap {
+    text-shadow: 0 0 40px rgba(0,0,0,0.8);
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
